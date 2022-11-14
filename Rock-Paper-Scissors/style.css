@@ -1,0 +1,143 @@
+.body{
+    /* max-width:100%; */
+    padding: 0;
+    margin: 0;
+}
+.container {
+height: 60px;
+    display: grid;
+    justify-content: center;
+    margin: 1%;
+ }
+ .container p  {
+     font-family: 'Times New Roman', Times, serif;
+     color: rgba(19, 17, 16, 0.623);
+     font-size:40px;
+     font-weight: 800;
+      margin: 1%;
+     width: 100%;
+ }
+ .container2 {
+    display:grid;
+    justify-content: center;
+ }
+ .container2 p {
+    text-align: center;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+ }
+ 
+ .chooseBox{
+    margin: 1%;
+    width:600px;
+     /* border: 2px solid rgb(133, 124, 124);
+     border-radius: 15px;
+   padding: 10px; */
+   display: flex;
+   justify-content: space-around;
+ }
+ #rock, #paper, #scissors {
+display: flex;
+flex-direction: column;
+    width: 120px;
+    height: 140px;
+    border: 2px solid rgb(185, 181, 181);
+    margin: 7px;
+    border-radius: 15px;
+    padding: 5px;
+
+ }
+ .rockimg {
+    background: url(rock.png);
+ }
+ .paperimg {
+    background: url(paper.png);
+ }
+ .scissorsimg {
+    background: url(scissor.png);
+ }
+ .rockimg, .paperimg, .scissorsimg {
+    width: 98%;
+    height: 91%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 10px;
+}
+#rock p, #paper p, #scissors p {
+    text-align:center;
+    padding:1px;
+    font-size: 20px;
+    margin: 2px;
+}
+.container3 {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+ }
+ .playBox{
+     border: 2px solid rgb(133, 124, 124);
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width:700px;
+     height: 340px;
+     margin-left: 250px;
+    
+ }
+ #leftPhoto ,#rightPhoto {
+    margin-top:5% ;
+    width: 250px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius:15px;
+}
+.playBox p,#scoreBox p{ 
+    color:#22201f;
+    font-size: 23px;
+    text-align: center;
+    margin: 3%;
+}
+
+
+#scoreBox {
+    width:180px;
+    height:310px;
+    border:2px solid #918c8c;
+    border-radius:20px;
+    margin-right: 9px;
+    padding: 1%;
+}
+.py1,.py2 {
+margin-top: 10%;
+    width: 45%;
+    height: 240px;
+    background:#efeff0 ;
+    line-height: 45px;
+    text-align: center;
+    font-size:24px;
+    border-radius:7px;
+}
+.py1 h6,.py2 h6{
+    font-size:18px; 
+    margin-top: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.py1{
+   
+    float: left;
+}
+.py2{
+    float: right;
+}
+#imgName1, #imgName2{
+    font-family:'Times New Roman', Times, serif;
+    color:#22201f;
+    font-size: 20px;
+    text-align: center;
+
+}

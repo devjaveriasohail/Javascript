@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calender.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="calender">
+        <div class="calender_mon_year">
+            <i id="prev" class="fa-solid fa-chevron-left "></i>
+            <p class="month_year"> </p>
+            <i id="next" class="fa-solid fa-chevron-right "></i>
+        </div>
+        <div class="calender_weeks">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+        </div>
+        <div class="calender_days">
+            <li></li>
+        </div>
+        <div>
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+    </div>
+   
+    </div>
+    <script src="calender.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top: 4%;
+    background-color: rgb(224, 224, 224);
+ }
+ .container h1 {
+     font-family: 'Times New Roman', Times, serif;
+     color: rgba(19, 17, 16, 0.623);
+ }
+ .chooseBox{
+     border: 2px solid rgb(133, 124, 124);
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+ .rock  div{
+     border: 2px solid rgb(133, 124, 124);
+     border-radius: 15px;
+ }
+ .playBox{
+     border: 2px solid rgb(133, 124, 124);
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
